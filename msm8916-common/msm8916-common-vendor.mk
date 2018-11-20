@@ -27,10 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/garden_app:system/bin/garden_app\
     vendor/asus/msm8916-common/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon\
-    vendor/asus/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util\
     vendor/asus/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher\
     vendor/asus/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
@@ -83,10 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml\
     vendor/asus/msm8916-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml\
     vendor/asus/msm8916-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml\
-    vendor/asus/msm8916-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml\
     vendor/asus/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml\
     vendor/asus/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml\
-    vendor/asus/msm8916-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml\
     vendor/asus/msm8916-common/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml\
     vendor/asus/msm8916-common/proprietary/etc/tamcid:system/etc/tamcid\
     vendor/asus/msm8916-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar\
@@ -97,10 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar\
     vendor/asus/msm8916-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar\
     vendor/asus/msm8916-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar\
-    vendor/asus/msm8916-common/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so\
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db\
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db\
-    vendor/asus/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so\
     vendor/asus/msm8916-common/proprietary/lib/style.cng:system/lib/style.cng\
     vendor/asus/msm8916-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd\
     vendor/asus/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon\
@@ -154,20 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so\
@@ -215,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so\
+	vendor/asus/msm8916-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so\
@@ -260,9 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so\
@@ -271,10 +247,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so\
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so\
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so\
@@ -311,6 +290,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so\
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so\
     vendor/asus/msm8916-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -324,9 +305,6 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libmm-abl \
     libtime_genoff \
-    ims \
-    imssettings \
-    imscmlibrary \
     shutdownlistener \
     TimeService \
     CNEService \
