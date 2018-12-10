@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar\
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db\
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db\
+	vendor/asus/msm8916-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/asus/msm8916-common/proprietary/lib/style.cng:system/lib/style.cng\
     vendor/asus/msm8916-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd\
     vendor/asus/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon\
@@ -204,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so\
+	vendor/asus/msm8916-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so\
     vendor/asus/msm8916-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so\
